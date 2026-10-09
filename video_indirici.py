@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Basit Türkçe yt-dlp arayüzü.
-@thefinega
+@byfinega
 Portable kullanım hedeflenir: bu dosyadan üretilen exe ile aynı klasörde
 yt-dlp.exe, ffmpeg.exe ve deno.exe bulunmalıdır.
 """
@@ -339,7 +339,7 @@ class DownloadWorker(threading.Thread):
 class VideoDownloaderApp:
     def __init__(self, root: tk.Tk):
         self.root = root
-        self.root.title(f"{APP_NAME} {APP_VERSION} | @thefinega")
+        self.root.title(f"{APP_NAME} {APP_VERSION} | @byfinega")
         self.root.geometry("840x660")
         self.root.minsize(760, 600)
 
